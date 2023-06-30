@@ -16,7 +16,7 @@ services:
     ports:
       - 5433:5432
   keycloak:
-    image: sleighzy/keycloak
+    image: sleighzy/keycloak # Образ для Mac M1
     environment:
       DB_VENDOR: POSTGRES
       DB_ADDR: postgres
